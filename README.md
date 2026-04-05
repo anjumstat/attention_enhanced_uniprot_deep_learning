@@ -62,7 +62,7 @@ Non-enzymes: 20,654 (61.6%)
 ---
 
 ## FILE 2: DATA POST-PROCESSING
-**Filename:** `02_data_post_processing.py`
+**Filename:** `02_Data_Labels_For_Deep_Learning_Modeling.py`
 
 ### Purpose
 Converts combined dataset into deep learning-ready format.
@@ -229,7 +229,7 @@ Ablation_50Percent_Data: 0.8123
 ---
 
 ## FILE 6: PAPER RESULTS GENERATOR
-**Filename:** `06_generate_paper_results.py`
+**Filename:** `06_generate_article_results.py`
 
 ### Purpose
 Generates publication-ready tables and figures for the research paper.
