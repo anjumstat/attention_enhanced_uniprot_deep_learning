@@ -34,9 +34,10 @@ The framework leverages pre-computed UniProt protein embeddings with an attentio
 │ ├── 06_plant_loso_complete.py # Complete LOSO evaluation (all models, all species)
 │ ├── 07_baseline_comparisons_cd_hit_dat_checkpoints.py # Baseline models with checkpoint
 │ ├── 08_extract_f1_mcc_update_tables.py # Extract F1 and MCC from results
-│ ├── 09_combine_loso_results.py # Combine LOSO results into summary tables
-│ ├── 10_statistical_tests.py # Friedman test and Repeated Measures ANOVA
-│ └── 11_generate_figures_final.py # Generate all paper figures (Figure 1-6)
+│ ├── 09_combine_csv_cd_hit.py # Combine LOSO results into summary tables
+        10_combine_loso_results
+│ ├── 11_statistical_tests.py # Friedman test and Repeated Measures ANOVA
+│ └── 12_Generate_Figures.py # Generate all paper figures (Figure 1-6)
 │
 ├── data/
 │ ├── raw/ # Raw UniProt data (TSV + HDF5 + FASTA)
