@@ -195,18 +195,18 @@ python codes/11_generate_figures_final.py
 python codes/01_data_preprocessing.py
 python codes/02_create_evaluation_splits.py
 python codes/03_create_clean_splits.py
-
+python codes/04_to_create_combine_file
+python codes/05_add_species_column
 # 2. Train models
-python codes/04_train_models.py
-python codes/07_baseline_comparisons_cd_hit_dat_checkpoints.py
-python codes/06_plant_loso_complete.py
-
+python codes/06_attention_dnn_training
+python codes/07_baseline_comparisons_cd_hit
+python codes/08_loso_training
 # 3. Extract results
-python codes/08_extract_f1_mcc_update_tables.py
-python codes/09_combine_loso_results.py
+python codes/09_combined_csv_cd_hit
+python codes/10_combine_loso_results
 
 # 4. Statistical analysis
-python codes/10_statistical_tests.py
+python codes/11_Statistical_Analysis_Final_code
 
 # 5. Generate figures
-python codes/11_generate_figures_final.py
+python codes/12_Generate_Figures
