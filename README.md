@@ -351,7 +351,7 @@ All results in this paper are fully reproducible using the following:
 | **Final Dataset** | 22,267 proteins (post-deduplication) |
 | **Figure Generation** | `12_Generate_Figures.py` (main) and `13_confusion_matrix.py` (confusion matrices) |
 | **Statistical Tests** | Friedman Test and Repeated-Measures ANOVA |
-🔬 Reproducibility
+
 ## 🔬 Reproducibility
 
 All results in this paper are fully reproducible using the following:
