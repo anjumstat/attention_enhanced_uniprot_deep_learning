@@ -351,7 +351,23 @@ All results in this paper are fully reproducible using the following:
 | **Final Dataset** | 22,267 proteins (post-deduplication) |
 | **Figure Generation** | `12_Generate_Figures.py` (main) and `13_confusion_matrix.py` (confusion matrices) |
 | **Statistical Tests** | Friedman Test and Repeated-Measures ANOVA |
+## 📝 Citation
 
+If you use this repository in your research, please cite:
+
+```bibtex
+@article{shahzad2026transfer,
+  title={Transfer Learning with Attention-Enhanced Deep Neural Networks for Plant Enzyme Classification Using UniProt Protein Embeddings},
+  author={Shahzad, Anjum and Akram, Sheeraz and Mehmood, Tahir},
+  journal={BMC Bioinformatics},
+  year={2026},
+  note={In Press},
+  doi={[ADD_DOI_AFTER_PUBLICATION]},
+  url={https://github.com/YOUR_USERNAME/plant-enzyme-classification}
+}
+Zenodo Archive: 10.5281/zenodo.21871663
+
+Corresponding Author: Anjum Shahzad (anjumstat@yahoo.com)
 🙏 Acknowledgements
 This work makes use of the following open-source resources:
 
