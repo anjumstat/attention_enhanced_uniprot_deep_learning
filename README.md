@@ -410,32 +410,8 @@ This repository is licensed under the MIT License. See the LICENSE file for deta
 
 Questions or issues? Please open an issue on GitHub or contact the corresponding author.
 
-text
 
----
 
-## Summary of What's Missing in Your Current README:
 
-| **Section** | **What's Missing** | **Where to Add** |
-|-------------|-------------------|------------------|
-| **Header** | DOI badges | Top of file |
-| **Repository Structure** | `13_confusion_matrix.py` and `figures/` folder | Under codes/ |
-| **Key Features** | "Confusion matrix generation" | Add as bullet point |
-| **Figure Generation** | Confusion matrix section | After `12_Generate_Figures.py` |
-| **Quick Start** | `13_confusion_matrix.py` command | Under Step 5 |
-| **Reproducibility** | Complete table with all details | New section after Evaluation Metrics |
-| **Citation** | Actual details (not placeholders) | Update with real info |
 
-## Your Next Steps:
 
-1. **Copy the complete README above** and replace your current README.md
-2. **Replace placeholders:**
-   - `yourusername` → your GitHub username
-   - `XXXXXXXXXX` → your Zenodo DOI
-   - `[Insert commit hash]` → your actual commit hash
-   - Citation details → your actual paper details
-3. **Commit and push** the updated README:
-```bash
-git add README.md
-git commit -m "Update README with complete reproducibility information and confusion matrix script"
-git push origin main
