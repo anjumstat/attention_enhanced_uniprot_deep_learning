@@ -52,7 +52,8 @@ The repository includes data preprocessing, homology-aware dataset construction,
 │   ├── 09_combined_csv_cd_hit.py
 │   ├── 10_combine_loso_results.py
 │   ├── 11_Statistical_Analysis_Final_code.py
-│   └── 12_Generate_Figures.py
+│   └── 12_Generate_Figures.py            # Main figures
+│   └── 13_confusion_matrix.py          # Confusion matrices
 │
 ├── data/
 │   ├── arabidopsis/
@@ -373,7 +374,8 @@ python codes/11_Statistical_Analysis_Final_code.py
 # Step 5: Generate Figures
 # ============================================
 
-python codes/12_Generate_Figures.py
+python codes/12_Generate_Figures.py    #main figures
+python codes/13_confusion_matrix.py   # Generates confusion matrices
 ```
 
 ---
