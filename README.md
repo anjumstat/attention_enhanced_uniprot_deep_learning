@@ -352,11 +352,15 @@ All results in this paper are fully reproducible using the following:
 | **Figure Generation** | `12_Generate_Figures.py` (main) and `13_confusion_matrix.py` (confusion matrices) |
 | **Statistical Tests** | Friedman Test and Repeated-Measures ANOVA |
 🔬 Reproducibility
+## 🔬 Reproducibility
+
 All results in this paper are fully reproducible using the following:
 
-Aspect	Implementation
-Versioned Code	Zenodo DOI: 10.5281/zenodo.XXXXXXXXXX
-Commit Hash	[Insert commit hash from latest release]
+| Aspect | Implementation |
+|--------|----------------|
+| **Versioned Code** | Zenodo DOI: [10.5281/zenodo.21871663](https://doi.org/10.5281/zenodo.21871663) |
+| **Commit Hash** | `2e269f30f985322bad58b1fb3cac527e5a91e64b` |
+...
 Random Seeds	RANDOM_SEED = 42 for all experiments
 Data Source	UniProt with taxonomy IDs: 3702, 3705, 4530, 4565
 Embedding Source	UniProt embeddings (1024-dim, HDF5 format)
