@@ -1,7 +1,7 @@
 markdown
 # Plant Enzyme Classification Using Attention-Enhanced Deep Neural Networks with UniProt Protein Embeddings
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21871663.svg)](https://doi.org/10.5281/zenodo.21871663)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow 2.12+](https://img.shields.io/badge/TensorFlow-2.12+-orange.svg)](https://www.tensorflow.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -335,7 +335,22 @@ F1-score
 Matthews Correlation Coefficient (MCC)
 
 ROC-AUC
+## 🔬 Reproducibility
 
+All results in this paper are fully reproducible using the following:
+
+| Aspect | Implementation |
+|--------|----------------|
+| **Versioned Code** | Zenodo DOI: [10.5281/zenodo.21871663](https://doi.org/10.5281/zenodo.21871663) |
+| **Commit Hash** | `2e269f30f985322bad58b1fb3cac527e5a91e64b` |
+| **GitHub Release** | [v1.0.0](https://github.com/YOUR_USERNAME/plant-enzyme-classification/releases/tag/v1.0.0) |
+| **Random Seeds** | `RANDOM_SEED = 42` for all experiments |
+| **Data Source** | UniProt with taxonomy IDs: 3702, 3705, 4530, 4565 |
+| **Embedding Source** | UniProt embeddings (1024-dim, HDF5 format) |
+| **Train/Test Splits** | CD-HIT clusters: 9,650/1,378/2,756 (train/val/test) |
+| **Final Dataset** | 22,267 proteins (post-deduplication) |
+| **Figure Generation** | `12_Generate_Figures.py` (main) and `13_confusion_matrix.py` (confusion matrices) |
+| **Statistical Tests** | Friedman Test and Repeated-Measures ANOVA |
 🔬 Reproducibility
 All results in this paper are fully reproducible using the following:
 
@@ -351,19 +366,23 @@ Figure Generation	12_Generate_Figures.py (main) and 13_confusion_matrix.py (conf
 Statistical Tests	Friedman Test and Repeated-Measures ANOVA
 📝 Citation
 If you use this repository in your research, please cite:
+## 📝 Citation
 
-bibtex
-@article{yourpaper2026,
+If you use this repository in your research, please cite:
+
+```bibtex
+@article{shahzad2026transfer,
   title={Transfer Learning with Attention-Enhanced Deep Neural Networks for Plant Enzyme Classification Using UniProt Protein Embeddings},
-  author={Your Name and Co-authors},
-  journal={Journal Name},
+  author={Shahzad, Anjum and Akram, Sheeraz and Mehmood, Tahir},
+  journal={BMC Bioinformatics},
   year={2026},
-  volume={XX},
-  pages={XXX-XXX},
-  doi={DOI},
-  url={https://github.com/yourusername/plant-enzyme-classification}
+  note={In Press},
+  doi={[ADD_DOI_AFTER_PUBLICATION]},
+  url={https://github.com/YOUR_USERNAME/plant-enzyme-classification}
 }
-A CITATION.cff file is also available in the repository for standardized citation.
+Zenodo Archive: 10.5281/zenodo.21871663
+
+Corresponding Author: Anjum Shahzad (anjumstat@yahoo.com)
 
 🙏 Acknowledgements
 This work makes use of the following open-source resources:
